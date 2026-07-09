@@ -1,0 +1,20 @@
+{
+  "name": "tinteeam-logging-utils",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "A logging utility developed by tinteeam. also because why not",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tinteeam/tinteeam-logging-utils-js.git"
+  },
+  "author": "tinteeam",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tinteeam/tinteeam-logging-utils-js/issues"
+  },
+  "homepage": "https://github.com/tinteeam/tinteeam-logging-utils-js#readme"
+}
