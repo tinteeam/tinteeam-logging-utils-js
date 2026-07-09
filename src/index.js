@@ -1,18 +1,12 @@
-
-const date = new Date()
-const time = date.getTime()
-
-
-
 // Logs errors
-export default function logError(message) {
-    console.log(date + "[ERROR]: " + message)
+export function logError(message) {
+    console.log(`${new Date()} [ERROR]: ${message}`);
 }
 
-export default function logWarn(message) {
-    console.log(date + "[WARN]: " + message)
+export function logWarn(message) {
+    console.log(`${new Date()} [WARN]: ${message}`);
 }
 
-export default function logInfo(message) {
-    console.log(date + "[INFO]: " + message)
+export function logInfo(message) {
+    console.log(`${new Date()} [INFO]: ${message}`);
 }

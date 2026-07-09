@@ -4,13 +4,14 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "@tinteeam-npm-packages/tinteeam-logging-utils": "^0.2.0"
+    "@tinteeam-npm-packages/tinteeam-logging-utils": "^0.2.1"
   }
 }
