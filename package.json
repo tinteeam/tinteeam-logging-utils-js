@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/tinteeam/tinteeam-logging-utils-js/issues"
   },
-  "homepage": "https://github.com/tinteeam/tinteeam-logging-utils-js#readme"
+  "homepage": "https://github.com/tinteeam/tinteeam-logging-utils-js#readme",
+  "publishConfig": {
+    "access": "public"
+  }
 }
