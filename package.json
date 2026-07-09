@@ -1,7 +1,7 @@
 {
   "name": "@tinteeam-npm-packages/tinteeam-logging-utils",
   "type": "module",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": " A logging utility developed by tinteeam. also because why not",
   "main": "src/index.js",
   "directories": {

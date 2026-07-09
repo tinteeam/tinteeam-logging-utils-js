@@ -1,12 +1,17 @@
 // Logs errors
+
+function formatTimeAndDate() {
+    return new Date.toISOString()
+}
+
 export function logError(message) {
-    console.log(`${new Date()} [ERROR]: ${message}`);
+    console.log(`[${timestamp()}] [ERROR]: ${message}`);
 }
 
 export function logWarn(message) {
-    console.log(`${new Date()} [WARN]: ${message}`);
+    console.log(`[${timestamp()}] [WARN]: ${message}`);
 }
 
 export function logInfo(message) {
-    console.log(`${new Date()} [INFO]: ${message}`);
+    console.log(`[${timestamp()}] [INFO]: ${message}`);
 }

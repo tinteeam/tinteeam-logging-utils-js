@@ -12,6 +12,6 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "@tinteeam-npm-packages/tinteeam-logging-utils": "^0.2.1"
+    "@tinteeam-npm-packages/tinteeam-logging-utils": "^0.2.2"
   }
 }
