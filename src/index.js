@@ -15,3 +15,9 @@ export function logWarn(message) {
 export function logInfo(message) {
     console.log(`[${timestamp()}] [INFO]: ${message}`);
 }
+
+export default {
+    logError,
+    logWarn,
+    logInfo
+}
